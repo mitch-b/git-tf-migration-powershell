@@ -97,3 +97,4 @@ If that doesn't work for you, modify the PS1 script and remove the ```--keep-aut
 ## Caveats
 
 - Unfortunately, you will need to create the Team Projects before attempting to migrate with this script. No new Team Projects can be created through this tool.
+- Branch relationships will be lost, and only baseless merges will be possible. The code and each branch will still exist, but the relationship back to your Main will be lost.

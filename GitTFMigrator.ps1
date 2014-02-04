@@ -44,7 +44,7 @@ function PrintHelp
 	Write-Host ''
 	Write-Host ''
     Write-Host 'Press any key to continue ...'
-    $host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+    $in = $host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 }
 
 function ValidateInput

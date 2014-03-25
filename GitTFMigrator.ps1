@@ -152,7 +152,7 @@ function UpdatePath
 		return;
 	}
 	$NewPath = $OldPath + ';' + $gitDefaultPath;
-	Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH –Value $NewPath
+	Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value $NewPath
 	Write-Host 'Git added to %PATH%';
 	Write-Host '';
 }

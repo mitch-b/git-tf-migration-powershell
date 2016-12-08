@@ -13,7 +13,7 @@ Param(
 
 $ErrorActionPreference	= "stop"
 $global:gittfURL	= 'http://download.microsoft.com/download/A/E/2/AE23B059-5727-445B-91CC-15B7A078A7F4/git-tf-2.0.3.20131219.zip';
-$global:gitURL		= 'https://msysgit.googlecode.com/files/Git-1.8.5.2-preview20131230.exe';
+$global:gitURL		= 'https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.1/Git-2.11.0-32-bit.exe';
 $global:gittfArchive	= 'git-tf.zip';
 $global:gitInstaller	= 'git-installer.exe';
 $global:gittfBasePath	= 'C:\git-tf';
